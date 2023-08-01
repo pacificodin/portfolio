@@ -1,0 +1,150 @@
+body {
+font-family: Arial, sans-serif;
+margin: 0;
+padding: 0;
+}
+
+header {
+background-color: #333;
+color: silver;
+text-align: center;
+padding: 15px;
+height: 170px;
+}
+
+nav {
+background-color:#6D9886;
+display: flex;
+justify-content: center;
+padding: 10px;
+}
+
+nav a {
+color: #fff;
+text-decoration: none;
+margin: 5px 10px;
+font-weight: bold;
+}
+nav a:hover{
+color: aquamarine;
+text-shadow: 2px 2px 10px white;
+}
+span{
+color: #F7F7F7;
+}
+
+.container {
+padding: 20px;
+}
+
+.portfolio-item {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+gap: 20px;
+}
+
+.portfolio-item img {
+max-width: 100%;
+height: auto;
+}
+
+footer {
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+}
+
+@media screen and (max-width: 768px) {
+.container {
+padding: 10px;
+}
+}
+#head{
+color: #6D9886;
+}
+.nav{
+justify-content: left;
+padding: 20px;
+}
+.paragraph{
+  width: 100%;
+  height: 350px;
+  line-height: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 15px;
+}
+image{
+  height: 290px;
+  width: 630px;
+}
+.cv{
+    margin-top: 35px;
+    margin-left: 4px;
+    text-align: center;
+
+    
+    background-color: #eef2f3;
+    color: #6D9886;
+    font-size: 15px;
+    font-weight: bold;
+
+    border:  solid 2px;
+    border-style:groove;
+    border-radius: 35px; 
+    padding: 10px 20px; 
+}
+#cv{
+  padding: 10px;
+}
+
+.cv:hover{
+    background-color: #6D9886;
+    font-size: 14px;
+    color: #eef2f3;
+}
+#contact{
+  width: 40%;
+  display: grid;
+  line-height: 40px;
+  font-style: oblique;
+  border-radius: 3px;
+  font-weight: bold;
+}
+#submit{
+  width: 20%;
+  height: 35px;
+  background-color:#6D9886;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+  align-items: center;
+  color: #F7F7F7;
+  font-weight: bolder;
+  
+}
+#submit:hover{
+ box-shadow: 2px 2px 10px black;
+ color: #6D9886;
+ background-color: #F7F7F7;
+}
+input{
+  height: 22px;
+  border-radius: 5px;
+}
+footer {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  justify-content: center;
+}
+a img{
+  height: 40px ;
+  width: 40px;
+  padding: 5px;
+}
+.footer:hover{
+  box-shadow: -3px -3px 10px rgb(43, 141, 226);
+}
